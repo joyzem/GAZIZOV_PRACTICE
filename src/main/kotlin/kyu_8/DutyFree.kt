@@ -11,8 +11,7 @@ import kotlin.math.roundToInt
  * All inputs will be integers. Please return an integer. Round down.
  */
 fun dutyFree(bottlePrice: Int, discount: Int, holidayCost: Int): Int {
-    // Сумма сэкономленных денег должна равняться holidayCost
-    val discountBottlePrice = (bottlePrice * discount) / 100f // - стоимость бутылки со скидкой
+    val discountBottlePrice = (bottlePrice * discount) / 100f
     val bottlesToBuy = ((holidayCost / discountBottlePrice) - 0.5f).roundToInt()
     return bottlesToBuy
 }

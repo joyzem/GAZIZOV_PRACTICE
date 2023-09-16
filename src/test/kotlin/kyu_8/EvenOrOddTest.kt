@@ -7,10 +7,10 @@ internal class EvenOrOddTest {
 
     @Test
     fun test() {
-        assertEquals("Even", evenOrOdd(1))
-        assertEquals("Even", evenOrOdd(11))
-        assertEquals("Odd", evenOrOdd(0))
-        assertEquals("Odd", evenOrOdd(-2))
-        assertEquals("Even", evenOrOdd(-11))
+        assertEquals("Odd", evenOrOdd(1))
+        assertEquals("Odd", evenOrOdd(11))
+        assertEquals("Even", evenOrOdd(0))
+        assertEquals("Even", evenOrOdd(-2))
+        assertEquals("Odd", evenOrOdd(-11))
     }
 }
